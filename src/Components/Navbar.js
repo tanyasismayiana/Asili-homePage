@@ -17,14 +17,16 @@ const Navbar = () => {
             <img src={ai} />
           </div>
           <div className="people-category">
-            <a href="https://www.pinterest.com/search/pins/?q=men%20cloths&rs=typed">Men</a>
-            <a href="https://www.pinterest.com/search/pins/?q=african%20women%20cloths&rs=typed">Women</a>
-            <a href="https://www.pinterest.com/search/pins/?q=african%20kids%20cloths&rs=typed">Kids</a>
+            <a href="#">Men</a>
+            <a href="#">Women</a>
+            <a href="#">Kids</a>
           </div>
         </div>
         <div className="nav-search">
           <input type="text" placeholder="Search" />
-          <button className="btnRegister" ><a href="https://www.formpl.us/form/5365252036362240">Register</a></button>
+          <button className="btnRegister">
+            <a href="#">Register</a>
+          </button>
         </div>
       </nav>
       <div className="landing-page">
@@ -35,8 +37,9 @@ const Navbar = () => {
             quality products at affordable prices.<br></br>Visit our website
             today and get the best deals!
           </p>
-          <button className="btnRegister" ><a href="https://www.pinterest.com/search/pins/?q=trouser%20no%20human&rs=typed">Explore</a></button>
-
+          <button className="btnRegister">
+            <a href="#">Explore</a>
+          </button>
         </div>
         <div className="image">
           <img src={fashion} />
@@ -46,8 +49,8 @@ const Navbar = () => {
       <div className="top-categories">
         <h1>Top Categories</h1>
         <p className="parag-one">
-          Duis aute irure dolor in reprehenderit in voluptate velit essecillum
-          dolore eu fugiat nulla pariatur{" "}
+          Asili Active Wear the leading cloth brand which brings you high
+          quality products at affordable prices
         </p>
         <p>
           cillum dolore eu fugiat nulla pariatur. cillum dolore eu fugiat nulla
@@ -60,19 +63,31 @@ const Navbar = () => {
       <div className="cloth-categories">
         <div className="clothes">
           <img src={dress} />
-          <p className="cloth-name"> <a href="https://www.pinterest.com/pin/476466835587014279/">Dress</a></p>
+          <p className="cloth-name">
+            {" "}
+            <a href="#">Dress</a>
+          </p>
         </div>
         <div className="clothes">
           <img src={jacket} />
-          <p className="cloth-name"> <a href="https://www.pinterest.com/pin/476466835587014279/">Jacket</a></p>
+          <p className="cloth-name">
+            {" "}
+            <a href="#">Jacket</a>
+          </p>
         </div>
         <div className="clothes">
           <img src={trouser} />
-          <p className="cloth-name"> <a href="https://www.pinterest.com/pin/476466835587014279/">Trousers</a></p>
+          <p className="cloth-name">
+            {" "}
+            <a href="#">Trousers</a>
+          </p>
         </div>
         <div className="clothes">
           <img src={tshirt} />
-          <p className="cloth-name"> <a href="https://www.pinterest.com/pin/476466835587014279/">T-shirts</a></p>
+          <p className="cloth-name">
+            {" "}
+            <a href="#">T-shirts</a>
+          </p>
         </div>
       </div>
     </div>
